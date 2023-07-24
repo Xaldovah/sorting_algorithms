@@ -34,5 +34,9 @@ int lomuto_partition(int *array, int low, int high, size_t size);
 void shell_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void merge(int *left, size_t mid, int *right, size_t s_right, int *array);
+void sift_down(int *array, size_t start, size_t end);
+void heap_sort(int *array, size_t size);
+void heapify(int arr[], int n, int i, size_t size);
+void swap(int *array, size_t size, int *xp, int *yp);
 
 #endif /* SORT_H_ */
