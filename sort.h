@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <unistd.h>
 #include <stdbool.h>
 
@@ -38,5 +39,7 @@ void sift_down(int *array, size_t start, size_t end);
 void heap_sort(int *array, size_t size);
 void heapify(int arr[], int n, int i, size_t size);
 void swap(int *array, size_t size, int *xp, int *yp);
+void counting_sort(int *array, size_t size);
+int max(int *array, size_t size);
 
 #endif /* SORT_H_ */
